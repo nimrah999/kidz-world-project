@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kidz World</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!--Navbar= nav>(div>img)+(div>img+p) -->
+
+  <nav class="flex space-between">
+    <div>
+      <img src="http://i1.faceprep.in/prograd-junior/kw-logo.png" alt="" />
+    </div>
+    <div class="flex">
+      <div class="flex" id="share">
+        <img src="wh.png" alt="">
+        <p class="buttonwh">Share</p><pre>  </pre>
+      </div>
+      <div class="flex"> 
+        <form id="cart_form" action="/create-checkout-session" method="POST" class="flex">
+        <img src="http://i1.faceprep.in/prograd-junior/cart-icon.png" alt=""/>
+        <input type="hidden" name="cart" id="cart_items">
+         <button type="submit" class="buttonwh buybutton">Buy (<span id="cart-value">0</span>)</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- header>div>h1*3+h5 -->
+  <header>
+    <div class="flex header-text">
+      <h1>Shop.</h1>
+      <h1>Have Fun.</h1>
+      <h1>Repeat.</h1>
+      <h5>#NewAndNow</h5>
+    </div>
+  </header>
+
+  <!-- div>div>h2+div>div>(div>img+h3+h4)+(div>p+div>h6+img) -->
+   <div class="front-button">
+     <a href="index.html" class="btn btn1" >BOOKWORMS</a>
+     <a href="games.html" class="btn btn2" >GAMERS</a>
+     <a href="crafts.html" class="btn btn3">CRAFT LOVERS</a>
+   </div>
+  
+  <div class="section-container flex">
+    <div class="section">
+      <h2>Discover New Books</h2>
+      <div class="container flex space-between">
+        <div>
+          <div>
+            <img class="books" src="http://i1.faceprep.in/prograd-junior/book1.png" alt="" />
+            <h3>This was our pact</h3>
+            <h4>Ryan Andrews</h4>
+          </div>
+          <div class="buy flex space-between">
+            <p>$7.49</p>
+            <div id="book1" class="button flex space-evenly" data-itemid="dWcPUr">
+              <h6>Add</h6>
+              <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img class="books" src="http://i1.faceprep.in/prograd-junior/book2.png" alt="" />
+            <h3>The famous five</h3>
+            <h4>Guid Blyton</h4>
+          </div>
+          <div class="buy flex space-between">
+            <p>$4.59</p>
+            <div id="book2" class="button flex space-evenly" data-itemid="nnuCUX">
+              <h6>Add</h6>
+              <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img class="books" src="http://i1.faceprep.in/prograd-junior/book3.png" alt="" />
+            <h3>Matlida</h3>
+            <h4>Roald Dahl</h4>
+          </div>
+          <div class="buy flex space-between">
+            <p>$6.80</p>
+            <div id="book3" class="button flex space-evenly" data-itemid="rqCdSS">
+              <h6>Add</h6>
+              <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img class="books" src="http://i1.faceprep.in/prograd-junior/book4.png" alt="" />
+            <h3>Harry Potter</h3>
+            <h4>JK Rowling</h4>
+          </div>
+          <div class="buy flex space-between">
+            <p>$10</p>
+            <div id="book4" class="button flex space-evenly" data-itemid="JRezjf">
+              <h6>Add</h6>
+              <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img class="books" src="http://i1.faceprep.in/prograd-junior/book5.png" alt="" />
+            <h3>For Young Readers</h3>
+            <h4>Ruskin Bond</h4>
+          </div>
+          <div class="buy flex space-between">
+            <p>$7.29</p>
+            <div id="book5" class="button flex space-evenly" data-itemid="zGZJ3S">
+              <h6>Add</h6>
+              <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img class="books" src="http://i1.faceprep.in/prograd-junior/book6.png" alt="" />
+            <h3>Wimpy Kid - DIY</h3>
+            <h4>Jeff Kinney</h4>
+          </div>
+          <div class="buy flex space-between">
+            <p>$4.99</p>
+            <div id="book6" class="button flex space-evenly" data-itemid="R4MnNu">
+              <h6>Add</h6>
+              <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container flex space-between">
+        <div>
+          <div>
+            <img class="books" src="https://www.booksellers.co.nz/sites/default/files/uploaded-content/website-content/Book_Covers/cv_fing.jpg" alt="" width=200px height=252px />
+            <h3>Fing</h3>
+            <h4>David Williams</h4>
+          </div>
+          <div class="buy flex space-between">
+            <p>$7.49</p>
+            <div id="book1" class="button flex space-evenly" data-itemid="guIPrv">
+              <h6>Add</h6>
+              <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img class="books" src="https://i.pinimg.com/originals/fa/b1/8f/fab18f027cc09088dc22dcad0f036b62.jpg" width=200px height=252px alt="" />
+            <h3>Blinky bill</h3>
+            <h4>Dorothy wall</h4>
+          </div>
+          <div class="buy flex space-between">
+            <p>$4.59</p>
+            <div id="book2" class="button flex space-evenly" data-itemid="VPryV5">
+              <h6>Add</h6>
+              <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img class="books" src="https://s18670.pcdn.co/wp-content/uploads/wearegiants.jpg" width=200px height=252px alt="" />
+            <h3>We are Giants</h3>
+            <h4>Amber Lee</h4>
+          </div>
+          <div class="buy flex space-between">
+            <p>$6.80</p>
+            <div id="book3" class="button flex space-evenly" data-itemid="8MSD8M">
+              <h6>Add</h6>
+              <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img class="books" src="https://theresavarela.com/wp-content/uploads/2011/12/Cortez-book-cover-Latino-Mystery-Stories-for-Teens.png" width=200px height=252px alt="" />
+            <h3>You don't have a clue</h3>
+            <h4>sarah Cortez</h4>
+          </div>
+          <div class="buy flex space-between">
+            <p>$10</p>
+            <div id="book4" class="button flex space-evenly" data-itemid="rtXDJM">
+              <h6>Add</h6>
+              <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img class="books" src="https://s.hdnux.com/photos/67/04/16/14435260/3/rawImage.jpg" width=200px height=252px alt="" />
+            <h3>Beautiful You</h3>
+            <h4>Leah Cast</h4>
+          </div>
+          <div class="buy flex space-between">
+            <p>$7.29</p>
+            <div id="book5" class="button flex space-evenly" data-itemid="XJk0WK">
+              <h6>Add</h6>
+              <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img class="books" src="https://blog.placeit.net/wp-content/uploads/2018/06/Children-Book-Cover-Maker-Fox.jpg" width=200px height=252px alt="" />
+            <h3>My Blue Sweater</h3>
+            <h4>Peter Small</h4>
+          </div>
+          <div class="buy flex space-between">
+            <p>$4.99</p>
+            <div id="book6" class="button flex space-evenly" data-itemid="rA2ojG">
+              <h6>Add</h6>
+              <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container flex space-between">
+        <div>
+          <div>
+            <img class="books" src="https://i.pinimg.com/originals/d9/17/f8/d917f8e176724ccbdfd2822e6b625992.jpg" alt="" width="200px" height="252px">
+            <h3>Bedtime Math</h3>
+            <h4>Laura Overdeck</h4>
+          </div>
+          <div class="buy flex space-between">
+            <p>$7.49</p>
+            <div id="book1" class="button flex space-evenly" data-itemid="71RmY9">
+              <h6>Add</h6>
+              <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img class="books" src="https://cdn2.penguin.com.au/covers/original/9780679877059.jpg" width="200px" height="252px" alt="">
+            <h3>Helen Keller</h3>
+            <h4>John Smith</h4>
+          </div>
+          <div class="buy flex space-between">
+            <p>$4.59</p>
+            <div id="book2" class="button flex space-evenly" data-itemid="5y3P5j">
+              <h6>Add</h6>
+              <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img class="books" src="https://image3.mouthshut.com/images/imagesp/925840520s.jpg" width="200px" height="252px" alt="">
+            <h3>The Whistling Schoolboy </h3>
+            <h4>Ruskin Bond</h4>
+          </div>
+          <div class="buy flex space-between">
+            <p>$6.80</p>
+            <div id="book3" class="button flex space-evenly" data-itemid="sJ1zm0">
+              <h6>Add</h6>
+              <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img class="books" src="https://cdn.penguin.com.au/covers/1440/9780141366302.jpg" width="200px" height="252px" alt="">
+            <h3>Gulliver's Travel</h3>
+            <h4>Johnathan Swift</h4>
+          </div>
+          <div class="buy flex space-between">
+            <p>$10</p>
+            <div id="book4" class="button flex space-evenly" data-itemid="PB7A7P">
+              <h6>Add</h6>
+              <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img class="books" src="https://pictures.abebooks.com/isbn/9781402754258-us.jpg" width="200px" height="252px" alt="">
+            <h3>Oliver Twist</h3>
+            <h4>Charles Dickens</h4>
+          </div>
+          <div class="buy flex space-between">
+            <p>$7.29</p>
+            <div id="book5" class="button flex space-evenly" data-itemid="mQFH8k">
+              <h6>Add</h6>
+              <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img class="books" src="https://i.ebayimg.com/images/g/X2kAAOSwEx5golNB/s-l400.jpg" width="200px" height="252px" alt="">
+            <h3>Cindrella</h3>
+            <h4>Gillian Shields</h4>
+          </div>
+          <div class="buy flex space-between">
+            <p>$4.99</p>
+            <div id="book6" class="button flex space-evenly" data-itemid="R4R9Yu">
+              <h6>Add</h6>
+              <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer>(div>h2+img)+(div>h3+p*3) -->
+  <footer class="flex space-between">
+    <div>
+      <h2>Brought to you by Nimrah Khan</h2>
+      <img src="234.jpg" alt="" />
+    </div>
+    <div class="flex" id="details">
+      <h3>Order Product by Call</h3>
+      <p>Contact:8587008855</p>
+    </div>
+  </footer>
+
+  <script type="module" src="./index.js"></script>
+</body>
+
+</html>

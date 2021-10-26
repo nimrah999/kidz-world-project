@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kidz World</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!--Navbar= nav>(div>img)+(div>img+p) -->
+
+  <nav class="flex space-between">
+    <div>
+      <img src="http://i1.faceprep.in/prograd-junior/kw-logo.png" alt="" />
+    </div>
+    <div class="flex">
+      <div class="flex" id="share">
+        <img src="wh.png" alt="">
+        <p class="buttonwh">Share</p><pre>  </pre>
+      </div>
+      <div class="flex"> 
+        <form id="cart_form" action="/create-checkout-session" method="POST" class="flex">
+        <img src="http://i1.faceprep.in/prograd-junior/cart-icon.png" alt=""/>
+        <input type="hidden" name="cart" id="cart_items">
+         <button type="submit" class="buttonwh buybutton">Buy (<span id="cart-value">0</span>)</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- header>div>h1*3+h5 -->
+  <header>
+    <div class="flex header-text">
+      <h1>Shop.</h1>
+      <h1>Have Fun.</h1>
+      <h1>Repeat.</h1>
+      <h5>#NewAndNow</h5>
+    </div>
+  </header>
+
+  <!-- div>div>h2+div>div>(div>img+h3+h4)+(div>p+div>h6+img) -->
+  <div class="front-button">
+    <a href="index.html" class="btn btn1" >BOOKWORMS</a>
+    <a href="games.html" class="btn btn2" >GAMERS</a>
+    <a href="crafts.html" class="btn btn3">CRAFT LOVERS</a>
+  </div>
+  <div class="section-container flex">
+    <div class="section">
+      <h2>Handmade with love</h2>
+      <div class="container flex space-between">
+        <div>
+          <div>
+            <img class="crafts" src="http://i1.faceprep.in/prograd-junior/bookmarks.png" alt="" />
+            <h3>Bookmarks</h3>
+            <h4>Handmade with love</h4>
+          </div>
+          <div class="buy flex space-between">
+            <p>$12.49</p>
+            <div id="craft1" class="button flex space-evenly" data-itemid="lnbpC2">
+              <h6>Add</h6>
+              <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img class="crafts" src="http://i1.faceprep.in/prograd-junior/birthday-card.png" alt="" />
+            <h3>Birthday card</h3>
+            <h4>Handmade with love</h4>
+          </div>
+          <div class="buy flex space-between">
+            <p>$19.99</p>
+            <div id="craft2" class="button flex space-evenly" data-itemid="gLZWnp">
+              <h6>Add</h6>
+              <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img class="crafts" src="http://i1.faceprep.in/prograd-junior/stuffed-toy.png" alt="" />
+            <h3>Stuffed toys</h3>
+            <h4>Handmade with love</h4>
+          </div>
+          <div class="buy flex space-between">
+            <p>$15.99</p>
+            <div id="craft3" class="button flex space-evenly" data-itemid="0WVWLo">
+              <h6>Add</h6>
+              <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img class="crafts" src="http://i1.faceprep.in/prograd-junior/dream-catcher.png" alt="" />
+            <h3>Dream catcher drawing</h3>
+            <h4>Handmade with love</h4>
+          </div>
+          <div class="buy flex space-between">
+            <p>$18.49</p>
+            <div id="craft4" class="button flex space-evenly" data-itemid="vhhHYy">
+              <h6>Add</h6>
+              <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2><i>more coming soon........</i></h2>
+  </div>
+
+  <!-- footer>(div>h2+img)+(div>h3+p*3) -->
+  <footer class="flex space-between">
+    <div>
+      <h2>Brought to you by Nimrah Khan</h2>
+      <img src="234.jpg" alt="" />
+    </div>
+    <div class="flex" id="details">
+      <h3>Jamia Hamdard University</h3>
+      <p>Btech CSE</p>
+      <p>Sec-B , 2018-310-104</p>
+      <p> Talk to me at knimrah731@gmail.com</p>
+    </div>
+  </footer>
+  <script type="module" src="./index.js"></script>
+</body>
+
+</html>

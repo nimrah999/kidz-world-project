@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kidz World</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!--Navbar= nav>(div>img)+(div>img+p) -->
+
+  <nav class="flex space-between">
+    <div>
+      <img src="http://i1.faceprep.in/prograd-junior/kw-logo.png" alt="" />
+    </div>
+    <div class="flex">
+      <div class="flex" id="share">
+        <img src="wh.png" alt="">
+        <p class="buttonwh">Share</p><pre>  </pre>
+      </div>
+      <div class="flex"> 
+        <form id="cart_form" action="/create-checkout-session" method="POST" class="flex">
+        <img src="http://i1.faceprep.in/prograd-junior/cart-icon.png" alt=""/>
+        <input type="hidden" name="cart" id="cart_items">
+         <button type="submit" class="buttonwh buybutton">Buy (<span id="cart-value">0</span>)</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- header>div>h1*3+h5 -->
+  <header>
+    <div class="flex header-text">
+      <h1>Shop.</h1>
+      <h1>Have Fun.</h1>
+      <h1>Repeat.</h1>
+      <h5>#NewAndNow</h5>
+    </div>
+  </header>
+
+  <!-- div>div>h2+div>div>(div>img+h3+h4)+(div>p+div>h6+img) -->
+  <div class="front-button">
+    <a href="index.html" class="btn btn1" >BOOKWORMS</a>
+    <a href="games.html" class="btn btn2" >GAMERS</a>
+    <a href="crafts.html" class="btn btn3">CRAFT LOVERS</a>
+  </div>
+  <div class="section-container flex">
+    <div class="section">
+      <h2>Discover New Games</h2>
+      <div class="container flex space-between">
+        <div>
+          <div>
+            <img class="games" src="http://i1.faceprep.in/prograd-junior/dart-board.png" alt="">
+            <h3>Dart Board</h3>
+            <h4>Wooden board, 16 inches</h4>
+          </div>
+          <div class="buy flex space-between">
+            <p>$17.49</p>
+            <div id="game1" class="button flex space-evenly" data-itemid="cHuQTH">
+              <h6>Add</h6>
+              <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img class="games" src="http://i1.faceprep.in/prograd-junior/connect-four.png" alt="">
+            <h3>Connect 4</h3>
+            <h4>Board game, multiplayer</h4>
+          </div>
+          <div class="buy flex space-between">
+            <p>$19.99</p>
+            <div id="game2" class="button flex space-evenly" data-itemid="nqnSjG">
+              <h6>Add</h6>
+              <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img class="games" src="http://i1.faceprep.in/prograd-junior/jenga.png" alt="">
+            <h3>Jenga</h3>
+            <h4>Wooden blocks, 54 pieces</h4>
+          </div>
+          <div class="buy flex space-between">
+            <p>$20.99</p>
+            <div id="game3" class="button flex space-evenly" data-itemid="WqgOYY">
+              <h6>Add</h6>
+              <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img class="games" src="http://i1.faceprep.in/prograd-junior/monopoly.png" alt="">
+            <h3>Monopoly</h3>
+            <h4>1.61 x 15.75 x 10.51 inches</h4>
+          </div>
+          <div class="buy flex space-between">
+            <p>$19.49</p>
+            <div id="game4" class="button flex space-evenly" data-itemid="aGv5rr">
+              <h6>Add</h6>
+              <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+        <div class="container flex space-between">
+          <div>
+            <div>
+              <img class="games" src="https://images-na.ssl-images-amazon.com/images/I/917rlAYGD3S._SL1500_.jpg" width="360px" height="267px" alt="">
+              <h3>Snake Ladder</h3>
+              <h4>cardboard,multiplayer set</h4>
+            </div>
+            <div class="buy flex space-between">
+              <p>$17.49</p>
+              <div id="game1" class="button flex space-evenly" data-itemid="52uk8d">
+                <h6>Add</h6>
+                <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img class="games" src="https://images-na.ssl-images-amazon.com/images/I/61ytGAEihiS._SL1500_.jpg" width="360px" height="267px" alt="">
+              <h3>Dancing Robot</h3>
+              <h4>Board game, multiplayer</h4>
+            </div>
+            <div class="buy flex space-between">
+              <p>$19.99</p>
+              <div id="game2" class="button flex space-evenly" data-itemid="WmOdkv">
+                <h6>Add</h6>
+                <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img class="games" src="https://images-na.ssl-images-amazon.com/images/I/71oQjOAr8dL._SL1486_.jpg" width="360px" height="267px" alt="">
+              <h3>Car Set</h3>
+              <h4>7 pieces</h4>
+            </div>
+            <div class="buy flex space-between">
+              <p>$20.99</p>
+              <div id="game3" class="button flex space-evenly" data-itemid="yg3qRZ">
+                <h6>Add</h6>
+                <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img class="games" src="https://images-na.ssl-images-amazon.com/images/I/71fWTwq-VqL._SL1500_.jpg" alt="">
+              <h3>Kids Laptop</h3>
+              <h4>LED display with music</h4>
+            </div>
+            <div class="buy flex space-between">
+              <p>$19.49</p>
+              <div id="game4" class="button flex space-evenly" data-itemid="LVlKvX">
+                <h6>Add</h6>
+                <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+
+        <div class="container flex space-between">
+          <div>
+            <div>
+              <img class="games" src="https://images-eu.ssl-images-amazon.com/images/I/81qbNGQvGQL.png" width="360px" height="267px" alt="">
+              <h3>Puzzle</h3>
+              <h4>Set of 10</h4>
+            </div>
+            <div class="buy flex space-between">
+              <p>$17.49</p>
+              <div id="game1" class="button flex space-evenly" data-itemid="iv7h1v">
+                <h6>Add</h6>
+                <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img class="games" src="https://images-na.ssl-images-amazon.com/images/I/71EHnHsIHWL._SX466_.jpg" width="360px" height="267px" alt="">
+              <h3>Clay Set</h3>
+              <h4>12 colors</h4>
+            </div>
+            <div class="buy flex space-between">
+              <p>$19.99</p>
+              <div id="game2" class="button flex space-evenly" data-itemid="9LK5lT">
+                <h6>Add</h6>
+                <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img class="games" src="https://images-na.ssl-images-amazon.com/images/I/417eK2Qnc0L.jpg" width="360px" height="267px" alt="">
+              <h3>Plastic Bow</h3>
+              <h4>Fun bow game,solo</h4>
+            </div>
+            <div class="buy flex space-between">
+              <p>$20.99</p>
+              <div id="game3" class="button flex space-evenly" data-itemid="pr9RF8">
+                <h6>Add</h6>
+                <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <img class="games" src="https://images-na.ssl-images-amazon.com/images/I/71s6CHc-PCL._SL1500_.jpg" width="360px" height="267px" alt="">
+              <h3>My Happy House</h3>
+              <h4>1.61 x 15.75 x 10.51 inches</h4>
+            </div>
+            <div class="buy flex space-between">
+              <p>$19.49</p>
+              <div id="game4" class="button flex space-evenly" data-itemid="XKxkSt">
+                <h6>Add</h6>
+                <img src="http://i1.faceprep.in/prograd-junior/cart-icon-white.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <!-- footer>(div>h2+img)+(div>h3+p*3) -->
+  <footer class="flex space-between">
+    <div>
+      <h2>Brought to you by Nimrah Khan</h2>
+      <img src="234.jpg" alt="" />
+    </div>
+    <div class="flex" id="details">
+      <h3>Jamia Hamdard University</h3>
+      <p>Btech CSE</p>
+      <p>Sec-B , 2018-310-104</p>
+      <p> Talk to me at knimrah731@gmail.com</p>
+    </div>
+  </footer>
+
+  <script type="module" src="./index.js"></script>
+</body>
+
+</html>

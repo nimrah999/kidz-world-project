@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Rubik:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body { 
+  font-family: "Rubik", sans-serif;
+}
+
+.books {
+  max-width: 200px;
+}
+
+.games,
+.crafts {
+  max-width: 300px;
+}
+
+.flex {
+  display: flex;
+}
+
+
+.section-container {
+  flex-direction: column;
+  padding: 5%;
+ 
+}
+
+.space-between {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+}
+
+nav>div {
+  padding: 0% 3%;
+}
+
+nav img {
+  height: 30px;
+}
+
+#cart {
+  font-weight: bold;
+  align-items: center;
+}
+.buttonwh {
+  width:80px;
+  height:28px;
+  font-weight: bold;
+  align-items: center;
+  display: inherit;
+}
+
+.buybutton{
+  background-color: transparent;
+  border-color: transparent;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+}
+
+header {
+  height: 500px;
+  width: 100%;
+  background-image: url("http://i1.faceprep.in/prograd-junior/kw-background.png");
+  background-size: 100% 100%;
+  color: white;
+}
+
+.header-text {
+  flex-direction: column;
+  max-height: 100%;
+  max-width: 20%;
+  padding: 4% 5%;
+}
+
+header h1 {
+  font-size: 7vh;
+}
+
+header h5 {
+  font-size: 23px;
+  margin-top: 20px;
+}
+
+.section {
+  margin: 2% 0%;
+  
+}
+
+.button {
+  cursor: pointer;
+  background-color: #6095ff;
+  color: white;
+  padding: 7px;
+  border-radius: 4px;
+}
+
+.buy img {
+  width: 20px;
+  padding-left: 5px;
+}
+
+.buy {
+  margin-top: 15px;
+  padding-bottom: 50px;
+}
+
+footer {
+  /* max-height: 300px; */
+  background-image: url("http://i1.faceprep.in/prograd-junior/footer-bg.png");
+  background-size: 100% 100%;
+  color: white;
+  padding: 0% 5%;
+}
+
+footer img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+#details {
+  flex-direction: column;
+  text-align: right;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+h4 {
+  color: grey;
+  font-weight: lighter;
+}
+
+h6 {
+  font-size: 17px;
+}
+
+.buy p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h3,
+h2 {
+  margin-bottom: 10px;
+}
+
+.container {
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    height: 200px;
+    font-size: 15px;
+    text-align: start;
+  }
+
+  header h1 {
+    font-size: 4vh;
+  }
+
+  header h5 {
+    font-size: 15px;
+  }
+
+  .header-text {
+    padding: 0% 60% 5% 5%;
+  }
+
+  body {
+    text-align: center;
+  }
+
+  .container {
+    justify-content: center;
+  }
+}
+.front-button{
+  margin-left:26%;
+  text-align:center;
+  display: inline-flex;
+  
+}
+.btn{
+  border:2px solid #f600a4;
+  background:none;
+  border-radius: 20px;
+  padding:10px 20px;
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+  margin:30px;
+  transition: 0.8s;
+  position:relative;
+    height:100%;
+    overflow: hidden;
+    text-decoration: none;
+  }
+ 
+.btn1,.btn3{
+  color:rgb(133, 11, 92);
+}
+.btn2{
+  color:rgb(133, 11, 92);
+}
+.btn1:hover,.btn3:hover{
+  color:#000000;
+}
+.btn2:hover{
+  color:#000000;
+}
+.btn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  width:100%;
+  height:0%;
+  background:#f6fa03;
+  z-index: -1;
+  transition: 0.8s;
+}
+.btn1::before,.btn3::before{
+  top:0;
+  border-radius:0 0 50% 50%;
+
+}
+.btn2::before{
+  bottom:0;
+  border-radius:50% 50% 0 0;
+}
+.btn2::before{
+  height:100%;
+}
+.btn1:hover::before,.btn3:hover::before{
+  height:100%;
+}
+.btn2:hover::before{
+  height:0;
+}
+
+#full{
+  margin:12% 31%;
+}
+.failure{
+  width:600px;
+  height: 200px;
+
+  margin-left:530px;
+  margin-top:260px;
+ 
+}

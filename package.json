@@ -1,0 +1,20 @@
+{
+  "name": "kidz-world-part-1-main",
+  "version": "1.0.0",
+  "description": "website to buy items for kids",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --inspect=0.0.0.0:9229 server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "run": "^1.4.0",
+    "stripe": "^7.1.0"
+  }
+}

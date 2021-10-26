@@ -1,1 +1,1 @@
-# kidz-world-project
+# kidz-world-part-1
